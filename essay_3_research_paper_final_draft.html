@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View PDF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .pdf-container {
+      text-align: center;
+      padding: 2rem;
+    }
+    .pdf-frame {
+      width: 90%;
+      height: 80vh;
+      border: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .open-button {
+      margin-top: 20px;
+      padding: 0.8rem 1.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .open-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+<div class="pdf-container">
+  <h1>Final Draft PDF</h1>
+  <iframe src="Essays/Essay3 Final Draft.pdf" class="pdf-frame"></iframe>
+  <br>
+  <a href="Essays/Essay3 Final Draft.pdf" target="_blank" class="open-button">Open PDF in New Tab</a>
+</div>
+<div class="pdf-container">
+  <h1>Feedback</h1>
+  <iframe src="Essays/Shabbir essay 3 rubric.pdf" class="pdf-frame"></iframe>
+  <br>
+  <a href="Essays/Shabbir essay 3 rubric.pdf" target="_blank" class="open-button">Open PDF in New Tab</a>
+</div>
+
+</body>
+</html>

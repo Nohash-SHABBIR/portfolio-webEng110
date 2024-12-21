@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      font-size: 18px;
+    }
+    header {
+      background: url('logo.png') no-repeat center center/contain;
+      color: rgb(192, 77, 77);
+      padding: 4rem 0;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.8rem;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translateY(-50%);
+      white-space: nowrap;
+    }
+    .intro-section {
+      text-align: center;
+      padding: 3rem;
+      background: #e3f2fd;
+      border-bottom: 1px solid #ddd;
+    }
+    .intro-section h2 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #da6a7d;
+    }
+    .intro-section p {
+      margin: 0.5rem 0 0;
+      font-size: 1.5rem;
+      color: #555;
+    }
+    section {
+      padding: 3rem;
+      margin: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #f9f9f9;
+    }
+    section#freewrites {
+      background: url('qc1.png') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+    }
+    section#freewrites .freewrite-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    section#freewrites a {
+      display: block;
+      width: 50%;
+      padding: 0.8rem;
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: white;
+      background: rgba(25, 118, 210, 0.5);
+      border-radius: 8px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    section#freewrites a:hover {
+      background: rgba(25, 118, 210, 0.8);
+      transform: translateY(-5px);
+    }
+    section#homeassignments {
+      background: url('qc2.png') no-repeat center center/cover;
+      color: #fff;
+    }
+    section#essays {
+      background: url('qc3.jpg') no-repeat center center/cover;
+      color: #f3e5f5;
+    }
+    section#revised {
+      background: url('qc4.png') no-repeat center center/cover;
+      color: #e8f5e9;
+    }
+    section h2 {
+      color: #333;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+    }
+    section .content {
+      margin-top: 1.5rem;
+      color: #555;
+      min-height: 150px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #333;
+      color: white;
+      font-size: 1.2rem;
+    }
+    .home-assignment-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .home-assignment-item {
+      padding: 1rem;
+      text-align: center;
+      background: rgba(255, 200, 100, 0.6);
+      color: #333;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: bold;
+      width: 200px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    .home-assignment-item:hover {
+      background-color: rgba(255, 200, 100, 0.9);
+      transform: translateY(-5px);
+      color: #000;
+    }
+    .essay-buttons a {
+      display: block;
+      padding: 1rem;
+      width: 80%;
+      margin: 1rem auto;
+      text-align: center;
+      background-color: rgba(200, 150, 220, 0.5);
+      color: #333;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.3rem;
+      transition: background-color 0.3s;
+    }
+    .essay-buttons a:hover {
+      background-color: rgba(200, 150, 220, 0.8);
+    }
+    .fancy-button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .fancy-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  
+</header>
+
+<section class="intro-section" style="background: url('flat-lay-papers.jpg') no-repeat center center/cover; color: rgb(50, 50, 50);">
+  <h2 style="color: rgb(106, 17, 203);">Shabbir Siddique</h2>
+  <p style="color: rgb(34, 139, 34);">Welcome to my portfolio for College Writing English 110.</p>
+  <p style="color: rgb(34, 139, 34);">This collection showcases my journey through creative exploration, critical analysis, and personal growth in academic writing.</p>
+  <p><strong>Submitted to: <span style="color: rgb(255, 0, 0);">Professor Amanda Levix (current instructor as of 2024)</span></strong></p>
+</section>
+<main>
+  <main>
+    <main>
+      <section id="syllabus" style="text-align: center; padding: 1rem; background: url('wallpic.avif') no-repeat center center; background-size: 100% 100%; width: 90%; max-width: 800px; margin: auto; min-height: 6rem; border-radius: 0.5rem;">
+        <h2 style="font-size: 1.5rem; color: #1e88e5; margin-bottom: 0.5rem;">Syllabus</h2>
+        <a href="syllabus.html" class="fancy-button" style="padding: 0.5rem 1rem; font-size: 0.875rem; border-radius: 0.25rem;">View Course Syllabus</a>
+      </section>
+    </main>
+    
+  </main>
+  
+  <section id="freewrites">
+    <h2>Freewrites</h2>
+    <div class="content">
+      <div class="freewrite-buttons">
+        <a href="freewrite_08-29-24.html">Freewrite 8/29/24</a>
+        <a href="freewrite_09-03-24.html">Freewrite 9/3/24</a>
+        <a href="freewrite_09-05-24.html">Freewrite 9/5/24</a>
+        <a href="freewrite_09-10-24.html">Freewrite 9/10/24</a>
+        <a href="freewrite_09-17-24.html">Freewrite 9/17/24</a>
+        <a href="freewrite_09-24-24.html">Freewrite 9/24/24</a>
+        <a href="freewrite_09-26-24.html">Freewrite 9/26/24</a>
+        <a href="freewrite_10-10-24.html">Freewrite 10/10/24</a>
+        <a href="freewrite_10-17-24.html">Freewrite 10/17/24</a>
+        <a href="freewrite_10-22-24.html">Freewrite 10/22/24</a>
+        <a href="group_feedback.html">Group Feedback</a>
+        <a href="in_class_activities.html">In-Class Activities</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="homeassignments">
+    <h2>Home Assignments</h2>
+    <div class="content home-assignment-grid">
+      <a href="mother_tongue_summary.html" class="home-assignment-item">Mother Tongue Summary</a>
+      <a href="anzaldua_response.html" class="home-assignment-item">Anzaldúa Response</a>
+      <a href="chin_martinez_response.html" class="home-assignment-item">Chin and Martinez Response</a>
+      <a href="language_experience_response.html" class="home-assignment-item">Your Language Experience Response</a>
+      <a href="exercise_1_5_essay_1.html" class="home-assignment-item">Exercise 1.5: Essay 1 Rough-Rough Draft</a>
+      <a href="exercise_2_3_lens_analysis.html" class="home-assignment-item">Exercise 2.3 - Lens Analysis</a>
+      <a href="exercise_2_4.html" class="home-assignment-item">Exercise 2.4</a>
+      <a href="library_workbook_chapter_2.html" class="home-assignment-item">Library Workbook Chapter 2 Exercise</a>
+      <a href="news_article_summaries.html" class="home-assignment-item">News Article Summaries</a>
+      <a href="essay_3_basic_outline.html" class="home-assignment-item">Essay 3 Basic Outline</a>
+    </div>
+  </section>
+
+  <section id="essays">
+    <h2>Essays</h2>
+    <div class="essay-buttons">
+      <a href="literacy_autobiography_first_draft.html">Essay 1: Literacy Autobiography **FIRST DRAFT**</a>
+      <a href="essay_1_literacy_autobiography_final_draft.html">Essay 1: Literacy Autobiography **FINAL DRAFT**</a>
+      <a href="essay_2_lens_analysis_rough_draft.html">Essay 2 Lens Analysis ***ROUGH DRAFT***</a>
+      <a href="essay_2_lens_analysis_final_draft.html">Essay 2 Lens Analysis **FINAL DRAFT**</a>
+      <a href="essay_3_research_paper_rough_draft_1.html">Essay 3: Research Paper **ROUGH DRAFT #1**</a>
+      <a href="essay_3_research_paper_rough_draft_2.html">Essay 3: Research Paper **ROUGH DRAFT #2**</a>
+      <a href="essay_3_research_paper_final_draft.html">Essay 3: Research Paper **FINAL DRAFT**</a>
+    </div>
+  </section>
+
+  <section id="revised">
+    <h2>Revised Assignments</h2>
+    <div class="content">
+      <a href="revised_personal_opinion.html" class="fancy-button">Revised Personal Opinion</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
